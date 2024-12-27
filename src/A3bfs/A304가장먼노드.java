@@ -38,8 +38,8 @@ public class A304가장먼노드 {
         int max = distance[distance.length-1];
         for (int i = distance.length-1; i >= 0; i--) {
             if(distance[i] == max) answer++;
+            else break;
         }
-
 
         System.out.println(answer);
     }
